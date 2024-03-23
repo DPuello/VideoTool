@@ -11,8 +11,6 @@ Este proyecto es una maquetación de una plataforma para organizar y gestionar c
 
 ### Página Principal
 
-!Página Principal
-
 - **Aside**: Muestra la navegación.
 - **Lista de Carpetas**: Presenta las carpetas de videos disponibles.
 
