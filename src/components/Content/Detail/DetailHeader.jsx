@@ -72,10 +72,15 @@ function DetailHeader() {
   return (
     <div className="flex gap-5 items-center">
       <Link to={"/"}>
-        <BackButtonIcon width="40" className={"fill-main hover:brightness-90 transition-all duration-100"} />
+        <BackButtonIcon
+          width="40"
+          className={
+            "fill-main hover:brightness-90 transition-all duration-100"
+          }
+        />
       </Link>
       <h1 className="text-xl">
-        Home /
+        <Link to={"/"} className="cursor-pointer hover:text-main transition-all duration-200">Home </Link>/
         <span className="font-bold"> {thisFolder.title || "Detalle"}</span>
       </h1>
     </div>
